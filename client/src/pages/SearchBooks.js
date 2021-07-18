@@ -70,7 +70,9 @@ const SearchBooks = () => {
     }
 
     try {
+      console.log(bookToSave);
       const response = await saveBook(bookToSave, token);
+     
 
       if (!response.ok) {
         throw new Error('something went wrong!');
