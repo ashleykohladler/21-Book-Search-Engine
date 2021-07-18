@@ -2,7 +2,7 @@
 import React, { useState, useEffect } from 'react';
 import { Form, Button, Alert } from 'react-bootstrap';
 
-import { useMutation } from '@apollo/client';
+import { useMutation } from '@apollo/react-hooks';
 
 // import { loginUser } from '../utils/API';
 import { LOGIN_USER } from '../utils/mutations';
@@ -47,7 +47,7 @@ const LoginForm = () => {
 
     } catch (err) {
       console.error(err);
-      setShowAlert(true);
+      // setShowAlert(true);
     }
 
     setUserFormData({
