@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost/lit-stream', {
+mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost/dry-brushlands', {
   useNewUrlParser: true,
   useUnifiedTopology: true,
   useCreateIndex: true,
