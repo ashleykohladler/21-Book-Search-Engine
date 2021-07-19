@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost/serene-lake', {
+mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost/might-tor', {
   useNewUrlParser: true,
   useUnifiedTopology: true,
   useCreateIndex: true,
